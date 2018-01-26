@@ -5,7 +5,7 @@ die() { echo "$@" 1>&2 ; exit 1; }
 # [ "$#" -eq 0 ] || die "[docker-tools] no argument required, $# provided"
 
 DOCKER_MISSING_TOOLS=$(dirname $(readlink -f $0))
-credentials=$(python $DOCKER_MISSING_TOOLS/docker_credentials.py)
+credentials=$(python $DOCKER_MISSING_TOOLS/docker__credentials.py)
 arr=($credentials)
 
 i=1

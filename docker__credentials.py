@@ -15,7 +15,7 @@ def main(argv=None):
 #        print "[docker-tools] 0 argument required, %i provided" % len(args)
 #        return 0
 
-    filename = expanduser("~/.dockertools_repositories")
+    filename = expanduser("~/.docker_missing_tools_repositories")
 
     try:
         n = netrc(filename)

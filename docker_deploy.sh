@@ -7,7 +7,7 @@ if [ "$#" -ne 2 ]; then
 fi
 
 DOCKER_MISSING_TOOLS=$(dirname $(readlink -f $0))
-source $DOCKER_MISSING_TOOLS/docker_login.sh
+source $DOCKER_MISSING_TOOLS/docker__login.sh
 
 # TARGET not needed...
 # IMAGE not needed...

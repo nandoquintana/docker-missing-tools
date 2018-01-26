@@ -41,11 +41,14 @@ fi
 if [ -f $LOCAL_BIN"/docker_reset" ]; then
     rm $LOCAL_BIN"/docker_reset"
 fi
-if [ -f $LOCAL_BIN"/docker_clean" ]; then
-    rm $LOCAL_BIN"/docker_clean"
+if [ -f $LOCAL_BIN"/docker__clean.sh" ]; then
+    rm $LOCAL_BIN"/docker__clean.sh"
 fi
-if [ -f $LOCAL_BIN"/docker_login" ]; then
-    rm $LOCAL_BIN"/docker_login"
+if [ -f $LOCAL_BIN"/docker__login.sh" ]; then
+    rm $LOCAL_BIN"/docker__login.sh"
+fi
+if [ -f $LOCAL_BIN"/docker__credentials.py" ]; then
+    rm $LOCAL_BIN"/docker__credentials.py"
 fi
 # if [ -f $HOME"/.docker_missing_tools_repositories" ]; then
 #     rm $HOME"/.docker_missing_tools_repositories"
