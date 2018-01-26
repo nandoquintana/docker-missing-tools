@@ -4,13 +4,11 @@
 
 
 List everything (stacks, services, container, images, volumes) at once:
-
 ```
 docker_ls
 ```
 
-Removes everything (except volumes) at once:
-
+Remove everything (except volumes) at once:
 ```
 docker_reset
 ```
@@ -40,7 +38,7 @@ docker_deploy
 ```
 
 
-Display logs
+Display logs:
 ```
 docker_logs
 docker_logs_up
