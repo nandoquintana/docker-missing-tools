@@ -9,25 +9,30 @@ List everything (stacks, services, container, images, volumes) at once:
 docker_ls
 ```
 
+
 Initialize a swarm:
 ```
 docker_init
 ```
+
 
 Create an image from your source code (Dockerfile) and deploy it (docker-stack.yml) with the rest of the stack:
 ```
 docker_build_and_deploy
 ```
 
+
 Create an image from your source code (Dockerfile) and upload it to a docker registry:
 ```
 docker_build_and_release
 ```
 
+
 Deploy an stack (docker-stack.yml):
 ```
 docker_deploy
 ```
+
 
 Display logs
 ```
