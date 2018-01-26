@@ -50,11 +50,15 @@ docker_logs_f
 
 ## Install
 
+```
 git clone https://github.com/nandoquintana/docker-missing-tools.git ~/docker_missing_tools
 cd ~/docker_missing_tools
 ./docker_missing_tools_install.sh
+```
 
 ## Uninstall
 
+```
 cd ~/docker_missing_tools
 ./docker_missing_tools_uninstall.sh
+```
