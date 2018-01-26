@@ -9,6 +9,12 @@ List everything (stacks, services, container, images, volumes) at once:
 docker_ls
 ```
 
+Removes everything (except volumes) at once:
+
+```
+docker_reset
+```
+
 
 Initialize a swarm:
 ```
