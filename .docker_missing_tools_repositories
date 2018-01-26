@@ -1,0 +1,8 @@
+
+machine my-repository.my-domain.com
+    login "my-username@my-domain.com"
+    password my-password
+
+machine docker.io/my-username
+    login my-username
+    password my-password
