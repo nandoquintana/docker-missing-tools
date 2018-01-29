@@ -68,12 +68,12 @@ Arguments description:
 
 ## logs
 
-Display logs:
+Display logs from containers in any status:
 ```
 docker_logs STACK
 ```
 Arguments description:
-- STACK: is the name for the new stack.
+- STACK: filter containers by stack name.
 
 ## logs up
 
@@ -82,7 +82,7 @@ Display logs from containers in "running" status:
 docker_logs_up STACK
 ```
 Arguments description:
-- STACK: is the name for the new stack.
+- STACK: filter containers by stack name.
 
 ## logs down
 
@@ -91,7 +91,7 @@ Display logs from containers in "created" "restarting" "removing" "paused" "exit
 docker_logs_down STACK
 ```
 Arguments description:
-- STACK: is the name for the new stack.
+- STACK: filter containers by stack name.
 
 ## logs from service
 
