@@ -89,7 +89,7 @@ Setup Docker repositories credentials (user and passwords):
 emacs ~/.docker_missing_tools_repositories
 ```
 
-Include your URLs, user and pass there in [.netrc file format](https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html). For example:
+Include your URLs, USERs and PASSs there in [.netrc file format](https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html). For example:
 ```
 machine my-repository.my-domain.com
     login "my-username@my-domain.com"
