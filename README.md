@@ -86,7 +86,7 @@ Arguments description:
 
 ## logs down
 
-Display logs from containers in "created" "restarting" "removing" "paused" "exited" "dead" status:
+Display logs from containers in "created", "restarting", "removing", "paused", "exited" or "dead" status:
 ```
 docker_logs_down STACK
 ```
