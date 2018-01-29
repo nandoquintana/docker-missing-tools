@@ -24,13 +24,13 @@ Create an image from your source code (Dockerfile) and deploy it (docker-stack.y
 ```
 $ docker_build_and_deploy TARGET IMAGE STACK docker-stack.yml Dockerfile
 
-```
 Where:
 - TARGET: is the directory with the source code to build.
 - IMAGE: is the name for the new image.
 - STACK: is the name for the new stack.
 - docker-stack.yml: is the YML file where the new stack is defined.
 - Dockerfile: is the Docker file where the new image is defined (must exist inside TARGET directory).
+```
 
 Create an image from your source code (Dockerfile) and upload it to a docker registry:
 ```
