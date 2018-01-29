@@ -1,29 +1,29 @@
 # Docker Missing Tools
 
-## A set of commands to make docker dev-ops easier
+A set of commands to make docker dev-ops easier
 
-###### ls
+## ls
 
 List everything (stacks, services, container, images, volumes) at once:
 ```
 $ docker_ls
 ```
 
-###### reset
+## reset
 
 Remove everything (except volumes) at once:
 ```
 $ docker_reset
 ```
 
-###### init
+## init
 
 Initialize a swarm:
 ```
 $ docker_init
 ```
 
-###### build and deploy
+## build and deploy
 
 Create an image from your source code (Dockerfile) and deploy it (docker-stack.yml) with the rest of the stack:
 ```
@@ -37,7 +37,7 @@ Arguments description:
 - Dockerfile: (optional) is the Docker file where the new image is defined (must exist inside TARGET directory).
 
 
-###### build and release
+## build and release
 
 Create an image from your source code (Dockerfile) and upload it to a docker registry:
 ```
@@ -50,14 +50,14 @@ Arguments description:
 - REPOSITORY: is the Docker repository where image will be uploaded to.
 - Dockerfile: (optional) is the Docker file where the new image is defined (must exist inside TARGET directory).
 
-###### deploy
+## deploy
 
 Deploy an stack (docker-stack.yml):
 ```
 docker_deploy
 ```
 
-###### logs
+## logs
 
 Display logs:
 ```
@@ -67,15 +67,21 @@ docker_logs_down
 docker_logs_f
 ```
 
-## Install
+# Install Docker Missing Tools
 
+Get the scripts and move them to local "bin" directory:
 ```
 git clone https://github.com/nandoquintana/docker-missing-tools.git ~/docker_missing_tools
 cd ~/docker_missing_tools
 ./docker_missing_tools_install.sh
 ```
+Setup Docker repositories credentials (user and passwords):
+```
+emacs ~/.docker_missing_tools_repositories
+```
 
-## Uninstall
+
+# Uninstall Docker Missing Tools
 
 ```
 cd ~/docker_missing_tools
