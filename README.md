@@ -2,9 +2,9 @@
 
 A set of commands to make docker dev-ops easier.
 
-The main objective of these scripts is to avoid creating typical helper scripts like "build.sh" and "deploy.sh" inside shared code repositories.
-
 Docker Missing Tools help to automate dev-ops tasks without including noise to source code.
+
+Avoid creating typical helper scripts like "build.sh" and "deploy.sh" inside shared code repositories.
 
 
 ## ls
