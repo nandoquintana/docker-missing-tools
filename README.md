@@ -41,8 +41,14 @@ Arguments description:
 
 Create an image from your source code (Dockerfile) and upload it to a docker registry:
 ```
-docker_build_and_release
+docker_build_and_release TARGET IMAGE VERSION REPOSITORY [Dockerfile]
 ```
+Arguments description:
+- TARGET: is the directory with the source code to build.
+- IMAGE: is the name for the new image.
+- VERSION: is the tag for the new image.
+- REPOSITORY: is the Docker repository where image will be uploaded to.
+- Dockerfile: (optional) is the Docker file where the new image is defined (must exist inside TARGET directory).
 
 ###### deploy
 
