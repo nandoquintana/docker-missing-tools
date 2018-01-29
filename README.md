@@ -70,9 +70,33 @@ Arguments description:
 
 Display logs:
 ```
-docker_logs
-docker_logs_up
-docker_logs_down
+docker_logs STACK
+```
+Arguments description:
+- STACK: is the name for the new stack.
+
+## logs up
+
+Display logs from containers in "running" status:
+```
+docker_logs_up STACK
+```
+Arguments description:
+- STACK: is the name for the new stack.
+
+## logs down
+
+Display logs from containers in "created" "restarting" "removing" "paused" "exited" "dead" status:
+```
+docker_logs_down STACK
+```
+Arguments description:
+- STACK: is the name for the new stack.
+
+## logs from service
+
+Display logs from dockerd service:
+```
 docker_logs_f
 ```
 
