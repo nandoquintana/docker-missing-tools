@@ -1,6 +1,6 @@
 # Docker Missing Tools
 
-A set of commands to make docker dev-ops easier
+A set of commands to make docker dev-ops easier.
 
 ## ls
 
