@@ -6,3 +6,4 @@ machine docker.io/my-username
 machine my-repository.my-domain.com
     login "my-username@my-domain.com"
     password my-password
+
