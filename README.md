@@ -54,8 +54,12 @@ Arguments description:
 
 Deploy an stack (docker-stack.yml):
 ```
-docker_deploy
+docker_deploy STACK [docker-stack.yml]
 ```
+Arguments description:
+- STACK: is the name for the new stack.
+- docker-stack.yml: (optional) is the YML file where the new stack is defined.
+
 
 ## logs
 
