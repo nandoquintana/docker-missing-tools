@@ -30,7 +30,7 @@ $ docker_init
 
 ## build and deploy
 
-Create an image from your source code (Dockerfile) and deploy it (docker-stack.yml) with the rest of the stack:
+Create an image from your source code (and a Dockerfile) and deploy it (according a docker-stack.yml) with the rest of the stack:
 ```
 $ docker_build_and_deploy TARGET IMAGE STACK [docker-stack.yml] [Dockerfile]
 ```
@@ -44,7 +44,7 @@ Arguments description:
 
 ## build and release
 
-Create an image from your source code (Dockerfile) and upload it to a docker registry:
+Create an image from your source code (and a Dockerfile) and upload it to a Docker registry:
 ```
 docker_build_and_release TARGET IMAGE VERSION REPOSITORY [Dockerfile]
 ```
