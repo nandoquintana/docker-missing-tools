@@ -84,7 +84,7 @@ git clone https://github.com/nandoquintana/docker-missing-tools.git ~/docker_mis
 cd ~/docker_missing_tools
 ./docker_missing_tools_install.sh
 ```
-Setup Docker repositories credentials (user and passwords):
+Update your Docker repositories credentials file:
 ```
 emacs ~/.docker_missing_tools_repositories
 ```
