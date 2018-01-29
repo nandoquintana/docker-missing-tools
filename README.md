@@ -91,13 +91,15 @@ emacs ~/.docker_missing_tools_repositories
 
 Include your URLs, USERs and PASSs there in [.netrc file format](https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html). For example:
 ```
-machine my-repository.my-domain.com
-    login "my-username@my-domain.com"
-    password my-password
 
 machine docker.io/my-username
     login my-username
     password my-password
+
+machine my-repository.my-domain.com
+    login "my-username@my-domain.com"
+    password my-password
+
 ```
 
 
