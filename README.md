@@ -125,6 +125,7 @@ machine my-repository.my-domain.com
 
 ```
 
+Remember to install [Python](https://packages.ubuntu.com/python) and [Docker CE](https://docs.docker.com/install/linux/docker-ce/ubuntu/) :-)
 
 # Uninstall Docker Missing Tools
 
