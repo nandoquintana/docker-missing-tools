@@ -29,6 +29,9 @@ fi
 if [ ! -f $LOCAL_BIN"/docker_init" ]; then
     cp $DOCKER_MISSING_TOOLS"/docker_init.sh" $LOCAL_BIN"/docker_init"
 fi
+if [ ! -f $LOCAL_BIN"/docker_build" ]; then
+    cp $DOCKER_MISSING_TOOLS"/docker_build.sh" $LOCAL_BIN"/docker_build"
+fi
 if [ ! -f $LOCAL_BIN"/docker_build_and_deploy" ]; then
     cp $DOCKER_MISSING_TOOLS"/docker_build_and_deploy.sh" $LOCAL_BIN"/docker_build_and_deploy"
 fi

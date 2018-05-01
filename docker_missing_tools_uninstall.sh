@@ -29,6 +29,9 @@ fi
 if [ -f $LOCAL_BIN"/docker_init" ]; then
     rm $LOCAL_BIN"/docker_init"
 fi
+if [ -f $LOCAL_BIN"/docker_build" ]; then
+    rm $LOCAL_BIN"/docker_build"
+fi
 if [ -f $LOCAL_BIN"/docker_build_and_deploy" ]; then
     rm $LOCAL_BIN"/docker_build_and_deploy"
 fi
